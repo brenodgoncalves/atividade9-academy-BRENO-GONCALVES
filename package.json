@@ -1,5 +1,5 @@
 {
-    "name": "atividade9-academy-BRNEO-GONCALVES",
+    "name": "atividade9-academy-BRENO-GONCALVES",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -8,15 +8,15 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/brenodgoncalves/atividade9-academy-BRNEO-GONCALVES.git"
+        "url": "git+https://github.com/brenodgoncalves/atividade9-academy-BRENO-GONCALVES.git"
     },
     "keywords": [],
     "author": "Breno Goncalves",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/brenodgoncalves/atividade9-academy-BRNEO-GONCALVES/issues"
+        "url": "https://github.com/brenodgoncalves/atividade9-academy-BRENO-GONCALVES/issues"
     },
-    "homepage": "https://github.com/brenodgoncalves/atividade9-academy-BRNEO-GONCALVES#readme",
+    "homepage": "https://github.com/brenodgoncalves/atividade9-academy-BRENO-GONCALVES#readme",
     "devDependencies": {
         "@wdio/appium-service": "^7.19.5",
         "@wdio/cli": "^7.19.7",

@@ -7,7 +7,8 @@ describe("Teste apidemos.apk", () => {
         await $('android=new UiSelector().text("App").className("android.widget.TextView")').click();
         await $('android=new UiSelector().text("Alert Dialogs").className("android.widget.TextView")').click();
         await $("id=two_buttons").click();
-        await $("id=alertTitle").isDisplayed();
+        const alert = await $("android.widget.LinearLayout").isDisplayed();
+        expect(alert).toBe(true);
         await $('android=new UiSelector().text("OK").className("android.widget.Button")').click();
     });
 
@@ -15,7 +16,8 @@ describe("Teste apidemos.apk", () => {
         await $('android=new UiSelector().text("App").className("android.widget.TextView")').click();
         await $('android=new UiSelector().text("Alert Dialogs").className("android.widget.TextView")').click();
         await $("id=select_button").click();
-        await $('android=new UiSelector().text("Header title").className("android.widget.TextView")').isDisplayed();
+        const title = await $('android=new UiSelector().text("Header title").className("android.widget.TextView")').isDisplayed();
+        expect(title).toBe(true);
     });
 
     it("Fluxo e utilização do aplicativo em App/Fragment/Hide and Show", async () => {
