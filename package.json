@@ -1,0 +1,31 @@
+{
+    "name": "atividade9-academy-BRNEO-GONCALVES",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {        
+        "test": "wdio run wdio.conf.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/brenodgoncalves/atividade9-academy-BRNEO-GONCALVES.git"
+    },
+    "keywords": [],
+    "author": "Breno Goncalves",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/brenodgoncalves/atividade9-academy-BRNEO-GONCALVES/issues"
+    },
+    "homepage": "https://github.com/brenodgoncalves/atividade9-academy-BRNEO-GONCALVES#readme",
+    "devDependencies": {
+        "@wdio/appium-service": "^7.19.5",
+        "@wdio/cli": "^7.19.7",
+        "@wdio/local-runner": "^7.19.7",
+        "@wdio/mocha-framework": "^7.19.7",
+        "@wdio/spec-reporter": "^7.19.7",
+        "appium": "^1.22.3",
+        "chromedriver": "^101.0.0",
+        "wdio-chromedriver-service": "^7.3.2",
+        "wdio-wait-for": "^2.2.6"
+    }
+}
